@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page - FashionHub eCommerce</title>
+    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/font/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/plugin/nice-select/nice-select.css">
+    <link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/plugin/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="./assets/plugin/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header>
+        <!-- Navbar -->
+        <div>
+            <div class="top-header d-none d-lg-block mb-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-12 text-center text-md-start">
+                            <ul class="list-inline d-flex p-0 m-0">
+                                <li class="list-inline-item fw-medium text-white"><i class="bi bi-phone"></i> +9104588
+                                </li>
+                                <li class="list-inline-item mx-4 fw-medium text-white"><i class="bi bi-envelope"></i>
+                                    admin@info.com</li>
+                            </ul>
+                        </div>
+                        <div class="col-6 text-end d-none d-md-block">
+                            <div class="d-flex justify-content-end lang">
+                                <select class="nice-option">
+                                    <option value="English">
+                                        <span class="me-2">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#selectedlang)">
+                                                    <path d="M0 0.5H16V12.5H0V0.5Z" fill="#012169"></path>
+                                                    <path
+                                                        d="M1.875 0.5L7.975 5.025L14.05 0.5H16V2.05L10 6.525L16 10.975V12.5H14L8 8.025L2.025 12.5H0V11L5.975 6.55L0 2.1V0.5H1.875Z"
+                                                        fill="white"></path>
+                                                    <path
+                                                        d="M10.6 7.525L16 11.5V12.5L9.225 7.525H10.6ZM6 8.025L6.15 8.9L1.35 12.5H0L6 8.025ZM16 0.5V0.575L9.775 5.275L9.825 4.175L14.75 0.5H16ZM0 0.5L5.975 4.9H4.475L0 1.55V0.5Z"
+                                                        fill="#C8102E"></path>
+                                                    <path d="M6.025 0.5V12.5H10.025V0.5H6.025ZM0 4.5V8.5H16V4.5H0Z"
+                                                        fill="white"></path>
+                                                    <path d="M0 5.325V7.725H16V5.325H0ZM6.825 0.5V12.5H9.225V0.5H6.825Z"
+                                                        fill="#C8102E"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="selectedlang">
+                                                        <rect width="16" height="12" fill="white"
+                                                            transform="translate(0 0.5)"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                        English
+                                    </option>
+
+                                    <option value="Hindi"> <span class="me-2">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_5543_19751)">
+                                                    <path d="M0 8.5H16V12.5H0V8.5Z" fill="#FFCE00"></path>
+                                                    <path d="M0 0.5H16V4.5H0V0.5Z" fill="black"></path>
+                                                    <path d="M0 4.5H16V8.5H0V4.5Z" fill="#DD0000"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_5543_19751">
+                                                        <rect width="16" height="12" fill="white"
+                                                            transform="translate(0 0.5)"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                        Hindi
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 mb-3 d-flex justify-content-between pt-3 pt-lg-0 pb-2 pb-lg-0">
+                        <div class="list-inline-item d-inline-block d-lg-none">
+                            <button class="navbar-toggler border-0 collapsed" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#navbar-default" aria-controls="navbar-default"
+                                aria-label="Toggle navigation">
+                                <i class="bi bi-text-indent-left"></i>
+                        </div>
+                        <!-- Logo -->
+                        <a class="navbar-brand flex-shrink-0 " href="index.html">
+                            <img src="./assets/images/logo.png" class="logo main-logo" alt="eCommerce HTML Template">
+                        </a>
+                        <!-- Logo -->
+                        <div class="list-inline  d-flex d-lg-none">
+                            <div class="list-inline-item me-4">
+                                <a href="login.html"
+                                    class="text-muted d-flex flex-column justity-content-center align-items-center">
+                                    <i class="bi bi-person"></i>
+                                    <span class="d-block" style="font-size: 10px;">Account</span>
+                                </a>
+                            </div>
+                            <div class="list-inline-item me-4">
+                                <a href="cart.html"
+                                    class="text-muted  d-flex flex-column justity-content-center align-items-center">
+                                    <div class="position-relative">
+                                        <i class="bi bi-cart"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                            5
+                                        </span>
+                                    </div>
+                                    <span class="d-block" style="font-size: 10px;">Your cart</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <!-- Search -->
+                        <div class="input-group mb-3">
+                            <span class="input-group-text bg-primary text-white"><i class="bi bi-search"></i></span>
+                            <input type="text" class="form-control py-2" placeholder="Search" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <!-- Search -->
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-block">
+                        <!-- Navbar Actions -->
+                        <div class="list-inline  d-flex">
+                            <div class="list-inline-item me-4">
+                                <a href="login.html"
+                                    class="text-muted d-flex flex-column justity-content-center align-items-center">
+                                    <i class="bi bi-person"></i>
+                                    <span class="d-block" style="font-size: 10px;">Account</span>
+                                </a>
+                            </div>
+                            <div class="list-inline-item me-4">
+                                <a href="wishlist.html"
+                                    class="text-muted  d-flex flex-column justity-content-center align-items-center">
+                                    <div class="position-relative">
+                                        <i class="bi bi-heart"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                            5
+                                        </span>
+                                    </div>
+                                    <span class="d-block" style="font-size: 10px;">Wishlist</span>
+                                </a>
+                            </div>
+                            <div class="list-inline-item me-4">
+                                <a href="cart.html"
+                                    class="text-muted  d-flex flex-column justity-content-center align-items-center">
+                                    <div class="position-relative">
+                                        <i class="bi bi-cart"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                            5
+                                        </span>
+                                    </div>
+                                    <span class="d-block" style="font-size: 10px;">Your cart</span>
+                                </a>
+                            </div>
+                            <div class="list-inline-item d-inline-block d-lg-none">
+                                <button class="navbar-toggler border-0 collapsed" type="button"
+                                    data-bs-toggle="offcanvas" data-bs-target="#navbar-default"
+                                    aria-controls="navbar-default" aria-label="Toggle navigation">
+                                    <i class="bi bi-text-indent-left"></i>
+                            </div>
+                        </div>
+                        <!-- Navbar Actions -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <!-- Navs -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-default py-0 pb-lg-2 border border-start-0 border-end-0"
+            aria-label="Offcanvas navbar large">
+            <div class="container">
+                <div class="offcanvas offcanvas-start pt-2" tabindex="-1" id="navbar-default"
+                    aria-labelledby="navbar-defaultLabel">
+                    <div class="offcanvas-header pb-1">
+                        <a href="index.html"><img src="./assets/images/logo.png" alt="eCommerce HTML Template"></a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+
+                        <div class="d-block d-lg-none mb-4">
+                            <a class="btn btn-primary w-100 d-flex justify-content-center align-items-center collapsed"
+                                data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <span class="me-2">
+                                    <i class="bi bi-grid"></i>
+                                </span>
+                                All Categories
+                            </a>
+                            <div class="mt-2 collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    <ul class="mb-0 list-unstyled">
+                                        <li><a class="dropdown-item" href="#">Laptop Accessories</a></li>
+                                        <li><a class="dropdown-item" href="#">Mobile Accessories</a></li>
+                                        <li><a class="dropdown-item" href="#">Camera Accessories</a></li>
+                                        <li><a class="dropdown-item" href="#">Games</a></li>
+                                        <li><a class="dropdown-item" href="#">Smart Wearables</a></li>
+                                        <li><a class="dropdown-item" href="#">Smart Home Automation</a></li>
+                                        <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown me-3 d-none d-lg-block">
+                            <button class="btn  px-6" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="me-1">
+                                    <i class="bi bi-grid"></i>
+                                </span>
+                                All Categories
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Laptop Accessories</a></li>
+                                <li><a class="dropdown-item" href="#">Mobile Accessories</a></li>
+                                <li><a class="dropdown-item" href="#">Camera Accessories</a></li>
+                                <li><a class="dropdown-item" href="#">Games</a></li>
+                                <li><a class="dropdown-item" href="#">Smart Wearables</a></li>
+                                <li><a class="dropdown-item" href="#">Smart Home Automation</a></li>
+                                <li><a class="dropdown-item" href="#">Tablets</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="navbar-nav align-items-center ms-lg-5">
+                                <li class="nav-item dropdown w-100 w-lg-auto me-3">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown w-100 w-lg-auto me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Shop</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="shop.html">Shop Page - Filter</a></li>
+                                        <li><a class="dropdown-item" href="shop-single.html">Shop Single</a></li>
+                                        <li><a class="dropdown-item" href="wishlist.html">Shop Wishlist</a></li>
+                                        <li><a class="dropdown-item" href="cart.html">Shop Cart</a></li>
+                                        <li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown w-100 w-lg-auto dropdown-fullwidth me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Mega menu</a>
+                                    <div class="dropdown-menu pb-0">
+                                        <div class="row p-2 p-lg-4">
+                                            <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                <h6 class="text-primary ps-3">Laptop Accessories</h6>
+                                                <a class="dropdown-item" href="#">Mouse</a>
+                                                <a class="dropdown-item" href="#">Keyboard</a>
+                                                <a class="dropdown-item" href="#">USB</a>
+                                                <a class="dropdown-item" href="#">Data Cards</a>
+                                                <a class="dropdown-item" href="#">Router</a>
+                                                <a class="dropdown-item" href="#">Battery</a>
+                                                <a class="dropdown-item" href="#">Adapter</a>
+                                                <a class="dropdown-item" href="#">UPS</a>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                <h6 class="text-primary ps-3">Mobile Accessories</h6>
+                                                <a class="dropdown-item" href="#">Screen Guards</a>
+                                                <a class="dropdown-item" href="#">Plain Cases</a>
+                                                <a class="dropdown-item" href="#">Mobile Cables</a>
+                                                <a class="dropdown-item" href="#">Mobile Charger</a>
+                                                <a class="dropdown-item" href="#">Camera Lens</a>
+                                                <a class="dropdown-item" href="#">Mobile Flash</a>
+                                                <a class="dropdown-item" href="#">Power Bank</a>
+                                                <a class="dropdown-item" href="#">Mobile USB</a>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                <h6 class="text-primary ps-3">Camera Accessories</h6>
+                                                <a class="dropdown-item" href="#">Instant Camera</a>
+                                                <a class="dropdown-item" href="#">Drone</a>
+                                                <a class="dropdown-item" href="#">DSLR</a>
+                                                <a class="dropdown-item" href="#">Flashes</a>
+                                                <a class="dropdown-item" href="#">Sports & Action</a>
+                                                <a class="dropdown-item" href="#">Camera Lens</a>
+                                                <a class="dropdown-item" href="#">Camera tripods</a>
+                                                <a class="dropdown-item" href="#">Point & Shoot</a>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                <h6 class="text-primary ps-3">Camera Accessories</h6>
+                                                <a class="dropdown-item" href="#">Instant Camera</a>
+                                                <a class="dropdown-item" href="#">Drone</a>
+                                                <a class="dropdown-item" href="#">DSLR</a>
+                                                <a class="dropdown-item" href="#">Flashes</a>
+                                                <a class="dropdown-item" href="#">Sports & Action</a>
+                                                <a class="dropdown-item" href="#">Camera Lens</a>
+                                                <a class="dropdown-item" href="#">Camera tripods</a>
+                                                <a class="dropdown-item" href="#">Point & Shoot</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown w-100 w-lg-auto me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Pages</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="blog-single.html">Blog Single</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="about.html">About us</a></li>
+                                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown w-100 w-lg-auto me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Account</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+                                        <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+                                        <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navs -->
+    </header>
+    <!-- Header Section End -->
+
+    <main>
+        <!-- Product Section -->
+        <div class="mt-4">
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <!-- col -->
+                    <div class="col-12">
+                        <!-- breadcrumb -->
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item"><a href="#!">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shop-page">
+            <div class="product mt-5">
+                <div class="container">
+                    <div class="product-filter mb-4">
+                        <div class="product-filter-grid">
+                            <select class="filter-option">
+                                <option>Price</option>
+                                <option value="1">200</option>
+                                <option value="2">600</option>
+                                <option value="3">1500</option>
+                                <option value="4">2000</option>
+                            </select>
+                            <select class="filter-option">
+                                <option>Color</option>
+                                <option value="1">Red</option>
+                                <option value="2">Blue</option>
+                                <option value="3">Orange</option>
+                                <option value="4">White</option>
+                            </select>
+                            <select class="filter-option">
+                                <option>Review</option>
+                                <option value="1">5</option>
+                                <option value="2">4</option>
+                                <option value="3">3</option>
+                                <option value="4">1</option>
+                            </select>
+                            <select class="filter-option">
+                                <option>Offer</option>
+                                <option value="1">10%</option>
+                                <option value="2">50%</option>
+                                <option value="3">20%</option>
+                                <option value="4">30%</option>
+                            </select>
+                            <select class="filter-option">
+                                <option>Sort By</option>
+                                <option value="1">Low to Hight</option>
+                                <option value="2">Hight to Low</option>
+                            </select>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="product-items-section mt-4">
+                        <div class="row g-4 row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-2">
+                            <div class="col">
+                                <div class="card product-card mx-2">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/1.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="discount-badge">20% OFF</span>
+                                        <p class="card-title"><a href="shop-single.html">
+                                            Length Western Wear Legging
+                                            </a></p>
+                                        <div class="d-block">
+                                            <span class="text-muted strike-through"><s>$350.00</s></span>
+                                            <span class="sell-price">$320.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i
+                                                    class="bi bi-cart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Wishlist"><i class="bi bi-heart"></i> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card product-card mx-2">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/5.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="discount-badge">20% OFF</span>
+                                        <p class="card-title"><a href="shop-single.html">
+                                            Floral Print, Printed Bollywood Chiffon, Georgette Saree
+                                            </a></p>
+                                        <div class="d-block">
+                                            <span class="text-muted strike-through"><s>$350.00</s></span>
+                                            <span class="sell-price">$320.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i
+                                                    class="bi bi-cart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Wishlist"><i class="bi bi-heart"></i> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card product-card mx-2">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/6.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="discount-badge">20% OFF</span>
+                                        <p class="card-title"><a href="shop-single.html">
+                                            Women Floral Print Viscose Rayon Straight Kurta
+                                            </a></p>
+                                        <div class="d-block">
+                                            <span class="text-muted strike-through"><s>$350.00</s></span>
+                                            <span class="sell-price">$320.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i
+                                                    class="bi bi-cart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Wishlist"><i class="bi bi-heart"></i> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card product-card mx-2">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/7.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="discount-badge">20% OFF</span>
+                                        <p class="card-title"><a href="shop-single.html">
+                                            Self Design Men Blue, Dark Blue Sports Shorts
+                                            </a></p>
+                                        <div class="d-block">
+                                            <span class="text-muted strike-through"><s>$350.00</s></span>
+                                            <span class="sell-price">$320.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i
+                                                    class="bi bi-cart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Wishlist"><i class="bi bi-heart"></i> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card product-card mx-2">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/8.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="discount-badge">20% OFF</span>
+                                        <p class="card-title"><a href="shop-single.html">
+                                            Silk Blend Woven Light Blue Women Dupatta
+                                            </a></p>
+                                        <div class="d-block">
+                                            <span class="text-muted strike-through"><s>$350.00</s></span>
+                                            <span class="sell-price">$320.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i
+                                                    class="bi bi-cart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Wishlist"><i class="bi bi-heart"></i> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card product-card mx-2">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/9.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="discount-badge">20% OFF</span>
+                                        <p class="card-title"><a href="shop-single.html">
+                                            Men Casual Brown Genuine Leather RFID Wallet
+                                            </a></p>
+                                        <div class="d-block">
+                                            <span class="text-muted strike-through"><s>$350.00</s></span>
+                                            <span class="sell-price">$320.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i
+                                                    class="bi bi-cart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Wishlist"><i class="bi bi-heart"></i> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card product-card mx-2">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/10.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="discount-badge">20% OFF</span>
+                                        <p class="card-title"><a href="shop-single.html">
+                                            Trendy Sports Running Shoes For Men 
+                                            </a></p>
+                                        <div class="d-block">
+                                            <span class="text-muted strike-through"><s>$350.00</s></span>
+                                            <span class="sell-price">$320.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i
+                                                    class="bi bi-cart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Wishlist"><i class="bi bi-heart"></i> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card product-card mx-2">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/11.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="discount-badge">20% OFF</span>
+                                        <p class="card-title"><a href="shop-single.html">
+                                            Men Slim Mid Rise Black Jeans
+                                            </a></p>
+                                        <div class="d-block">
+                                            <span class="text-muted strike-through"><s>$350.00</s></span>
+                                            <span class="sell-price">$320.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i
+                                                    class="bi bi-cart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Wishlist"><i class="bi bi-heart"></i> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-pagination my-5 d-flex justify-content-center">
+                        <nav>
+                            <!-- pagination -->
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link mx-1" href="#" aria-label="Previous">
+                                        <i class="bi bi-arrow-left-short"></i>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link mx-1 active" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link mx-1" href="#">2</a></li>
+
+                                <li class="page-item"><a class="page-link mx-1" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link mx-1" href="#">12</a></li>
+                                <li class="page-item">
+                                    <a class="page-link mx-1" href="#" aria-label="Next">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Product Section -->
+    </main>
+
+    <footer class="mt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-md-0">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div class="footer_logo">
+                                <img loading="lazy" src="./assets/images/logo.png" class="logo" alt="easy shop">
+                            </div>
+                            <div class="mt-4">
+                                <p>Lorem ipsum, or lipsum as it is sometimes kno wn, is dummy text used in laying out
+                                    print, gra phic or web designs the passage.</p>
+                            </div>
+                            <div class="footer_social col-lg-6 col-lg-12">
+                                <div class="footer_icon d-flex mt-1">
+                                    <a href="#" class="facebook pe-3"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="twitter pe-3"><i class="bi bi-twitter"></i></a>
+                                    <a href="#" class="instagram pe-3"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3 mb-md-0">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="footer_menu">
+                                <h4 class="footer_title">My Account</h4>
+                                <ul class="m-0 p-0 list-unstyled">
+                                    <li><a href="#">Orders</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                    <li><a href="#">Track Order</a></li>
+                                    <li><a href="#">Manage Account</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="footer_menu">
+                                <h4 class="footer_title">Information</h4>
+                                <ul class="m-0 p-0 list-unstyled">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Return Policy</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_download">
+                        <div class="row">
+                            <div class="col-lg-6 col-lg-12">
+                                <h4 class="footer_title">Contact</h4>
+                                <div class="footer_contact">
+                                    <p>
+                                        <span class="icn"><i class="bi bi-geo-alt"></i></span>
+                                        Widgetify Inc. <br>
+                                        456 Gadget Avenue
+                                        Techtown, TX 67890 <br>
+                                        United States of America
+                                    </p>
+                                    <p class="phn">
+                                        <span class="icn"><i class="bi bi-telephone"></i></span>
+                                        (987) 654-3210, (555) 123-4567
+                                    </p>
+                                    <p class="eml">
+                                        <span class="icn"><i class="bi bi-envelope"></i></span>
+                                        info@example.com
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3 mt-4 bg-black text-white px-3">
+            <span>Copyright © 2024. All Rights Reserved. Themes By TemplateRise</span>
+        </div>
+    </footer>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.ez-plus.js"></script>
+    <script src="./assets/plugin/nice-select/jquery.nice-select.min.js"></script>
+    <script src="./assets/plugin/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./assets/plugin/nouislider/nouislider.min.js"></script>
+    <script src="./assets/plugin/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
